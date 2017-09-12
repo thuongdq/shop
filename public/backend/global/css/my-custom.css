@@ -1,0 +1,66 @@
+img {
+    object-fit: cover;
+    /*width: 100%;*/
+}
+.thumbnail-view{
+    display: block;
+    width: 150px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.thumbnail-view .img-thumbnail{
+    height: 100px;
+    width: 100%;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 5px;
+}
+a, a:active, a:focus, a:hover{
+    text-decoration: none !important;
+}
+.alert{
+    display: inline-block;
+    width: 100%;
+}
+.alert span{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.alert-danger .alert-heading{
+    color: #e73d4a !important;
+}
+@media print
+{
+    table tr td:last-child, table tr th:last-child{display: none;}
+}
+.dd-item{
+    position: relative;
+}
+.dd-item .group-action{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+.dd-item .btn-action{
+    line-height: 0px;
+    padding: 1px;
+    height: 24px;
+    width: 24px;
+}
+
+.tree_view_categories_scoll{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.wysihtml5-toolbar .btn{
+    padding: 6px;
+}
+
+.title-box{
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}

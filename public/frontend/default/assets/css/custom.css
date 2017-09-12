@@ -1,0 +1,45 @@
+img{
+    object-fit: cover;
+    margin: 0px auto;
+}
+header .top-cart-row .wishlist-compare-holder{
+    margin-right: 8px;
+}
+header .top-cart-row .top-cart-holder .total-price-basket{
+    margin: 0 0 0 4px;
+}
+header .top-cart-row .top-cart-holder .dropdown-toggle .total-price{
+    font-size: 16px;
+    line-height: 35px;
+}
+
+header .top-cart-row .top-cart-holder .dropdown-toggle .total-price .sign{
+    float: left;
+    margin-left: 3px;
+}
+
+header .top-cart-row .top-cart-holder .dropdown-toggle .total-price .value{
+    float: left;
+}
+
+.le-button, .le-button:hover, .le-button:focus, .le-button:active{
+    color: #fff !important;
+}
+.product-grid-holder .product-item-holder.size-big .body{
+    min-height: 110px;
+}
+.product-grid-holder .product-item-holder.size-big .prices {
+     padding: 8px 0 8px 0;
+ }
+
+.single-product-gallery .single-product-gallery-item a{
+    min-height: 375px;
+}
+
+#checkout-page #subtotal-holder .tabled-data li label{
+    min-width: 200px;
+}
+#checkout-page #subtotal-holder .tabled-data li .value{
+    width: calc(100% - 205px);
+    text-align: right;
+}
