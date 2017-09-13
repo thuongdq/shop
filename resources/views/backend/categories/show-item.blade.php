@@ -16,7 +16,7 @@
         }
         if ($('.wysihtml5').size() > 0) {
             $('.wysihtml5').wysihtml5({
-                "stylesheets": ["backend/global/plugins/bootstrap-wysihtml5/wysiwyg-color.css"],
+                "stylesheets": ["./backend/global/plugins/bootstrap-wysihtml5/wysiwyg-color.css"],
                 "font-styles": true,
                 "emphasis": true,
                 "lists": true,
@@ -27,9 +27,7 @@
     }
     });
 </script>
-{{--{{dd(json_encode(get_data_jstree($category->parent, $root_category, $categories_all)))}}--}}
 <form action="{{ route('admin.category.update', ['id' => $category->id]) }}" method="post" id="form">
-{{--    {{ dd(view_select_list($category->parent, $root_category, $categories_all)) }}--}}
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
         <h4 class="modal-title font-blue uppercase sbold text-center">Tạo danh mục con demo</h4>
@@ -40,12 +38,13 @@
                 <div class="caption title-box">
                     <i class="fa fa-info-circle font-red"></i>
                     <span class="caption-subject font-red sbold uppercase">Thông tin</span>
+                    <div class="alert alert-success"></div>
                 </div>
                 <div class="form-group">
                     <label for="single" class="control-label">Danh mục cha</label>
                     <select name="parent" id="parent" class="form-control select2">
-                        <option value="{{ $root_category->id }}">&nbsp;&nbsp;{{ $root_category->namea }}</option>
-                        {!! view_select_list($category->parent, $root_category, $categories_all) !!}
+                        <option value="{{ $root_category->id }}">{{ $root_category->name }}</option>
+                        {!! view_select_list($category->parent, $root_category, $categories_all, "&nbsp;&nbsp;") !!}
                     </select>
                 </div>
                 <div class="form-group {{ $errors->has('name') ? 'has-error' : ''}}">

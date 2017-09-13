@@ -1,4 +1,3 @@
-{{--    {{ dd(view_select_list($category->parent, $root_category, $categories_all)) }}--}}
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
     <h4 class="modal-title font-blue uppercase sbold text-center">Tạo danh mục con demo</h4>
@@ -13,8 +12,8 @@
             <div class="form-group">
                 <label for="single" class="control-label">Danh mục cha</label>
                 <select name="parent" id="parent" class="form-control select2">
-                    <option value="{{ $root_category->id }}">&nbsp;&nbsp;{{ $root_category->namea }}</option>
-                    {!! view_select_list($category->parent, $root_category, $categories_all) !!}
+                    <option value="{{ $root_category->id }}">{{ $root_category->name }}</option>
+                    {!! view_select_list($category->parent, $root_category, $categories_all, "&nbsp;&nbsp;") !!}
                 </select>
             </div>
             <div class="form-group {{ $errors->has('name') ? 'has-error' : ''}}">
@@ -81,16 +80,16 @@
                 'parent': $("#parent").val(),
             }
         })
-        .then(function (response) {
-            if(response == "success"){
-                alert("ok");
-            }else{
-                $("#form").html(response.data);
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+            .then(function (response) {
+                if(response == "success"){
+                    alert("ok");
+                }else{
+                    $("#form").html(response.data);
+                }
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
 
     });
 </script>

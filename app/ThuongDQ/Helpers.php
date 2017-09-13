@@ -21,8 +21,8 @@ if(!function_exists('get_thumbnail')){
         return Tool::makeCategories($categories, $not_cate );
     }
 
-    function view_select_list($selected, $parent, $list, $result="", $prefix="&nbsp;&nbsp;"){
-        return Tool::viewSelectList($selected, $parent, $list, $result, $prefix);
+    function view_select_list($selected, $parent, $list, $prefix="", $result=""){
+        return Tool::viewSelectList($selected, $parent, $list, $prefix, $result);
     }
 
     function view_nestable($root, $current, $list, $result = ''){

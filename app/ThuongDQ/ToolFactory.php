@@ -113,7 +113,7 @@ class ToolFactory{
     //</div>
 
 
-    public function viewSelectList($selected, $parent, $list, $result, $prefix){
+    public function viewSelectList($selected, $parent, $list, $prefix, $result){
         foreach ($list[$parent->id] as $key => $item){
             if($selected == $item->id){
                 $select = 'selected';
@@ -122,7 +122,7 @@ class ToolFactory{
             }
             $result .= '<option value="'.$item->id.'" '.$select.'>'.$prefix.$item->name.'</option>';
             if(isset($list[$item->id])){
-                $result = $this->viewSelectList($selected, $item, $list, $result, $prefix.$prefix.$prefix);
+                $result = $this->viewSelectList($selected, $item, $list,  $prefix.$prefix.$prefix, $result);
             }
         }
         return $result;
