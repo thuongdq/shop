@@ -1,6 +1,5 @@
 vendor/
 node_modules/
-.ide/
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -15,3 +14,4 @@ storage/*.key
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+/.ide
