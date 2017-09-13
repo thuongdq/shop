@@ -1,545 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c2801ec-28f4-4949-bf1b-1c381af45724" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_9_11_17_9_43_PM_artisan.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/CategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ThuongDQ/Helpers.php" afterPath="$PROJECT_DIR$/app/ThuongDQ/Helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ThuongDQ/ToolFactory.php" afterPath="$PROJECT_DIR$/app/ThuongDQ/ToolFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cache.php" afterPath="$PROJECT_DIR$/config/cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/queue.php" afterPath="$PROJECT_DIR$/config/queue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_28_083611_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_28_083611_create_products_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_28_093805_create_tags_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_28_093805_create_tags_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_28_094015_create_product_tag_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_28_094015_create_product_tag_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_28_094457_create_orders_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_28_094457_create_orders_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_28_094725_create_product_order_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_28_094725_create_product_order_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_28_101042_table_products_relation.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_28_101042_table_products_relation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_29_014734_table_product_tag_relation.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_29_014734_table_product_tag_relation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_06_29_014809_table_product_order_relation.php" afterPath="$PROJECT_DIR$/database/migrations/2017_06_29_014809_table_product_order_relation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_08_05_003739_create_attahcments_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_08_05_003739_create_attahcments_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_08_07_224141_create_featured_prodcuts_column.php" afterPath="$PROJECT_DIR$/database/migrations/2017_08_07_224141_create_featured_prodcuts_column.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_08_08_074724_create_comments_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_08_08_074724_create_comments_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ABCSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ABCSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/AttachmentsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/AttachmentsTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/NewsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/NewsTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/OrdersTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/OrdersTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/TagsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/TagsTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/css/components-md.css" afterPath="$PROJECT_DIR$/public/backend/global/css/components-md.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/css/components-rounded.css" afterPath="$PROJECT_DIR$/public/backend/global/css/components-rounded.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/css/my-custom.css" afterPath="$PROJECT_DIR$/public/backend/global/css/my-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/css/plugins-md.css" afterPath="$PROJECT_DIR$/public/backend/global/css/plugins-md.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/css/plugins-md.min.css" afterPath="$PROJECT_DIR$/public/backend/global/css/plugins-md.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ar-AR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ar-AR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ar-AR.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ar-AR.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-bg-BG.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-bg-BG.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-bg-BG.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-bg-BG.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ca-ES.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ca-ES.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ca-ES.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ca-ES.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-cs-CZ.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-cs-CZ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-cs-CZ.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-cs-CZ.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-da-DK.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-da-DK.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-da-DK.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-da-DK.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-de-DE.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-de-DE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-de-DE.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-de-DE.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-ES.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-ES.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-ES.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-ES.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-EU.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-EU.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-EU.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-es-EU.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fa-IR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fa-IR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fa-IR.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fa-IR.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fi-FI.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fi-FI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fi-FI.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fi-FI.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fr-FR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fr-FR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fr-FR.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-fr-FR.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-he-IL.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-he-IL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-he-IL.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-he-IL.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-hu-HU.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-hu-HU.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-hu-HU.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-hu-HU.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-id-ID.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-id-ID.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-id-ID.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-id-ID.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-it-IT.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-it-IT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-it-IT.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-it-IT.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ja-JP.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ja-JP.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ja-JP.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ja-JP.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ko-KR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ko-KR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ko-KR.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ko-KR.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-lt-LT.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-lt-LT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-lt-LT.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-lt-LT.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nb-NO.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nb-NO.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nb-NO.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nb-NO.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nl-NL.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nl-NL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nl-NL.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-nl-NL.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pl-PL.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pl-PL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pl-PL.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pl-PL.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-BR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-BR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-BR.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-BR.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-PT.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-PT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-PT.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-pt-PT.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ro-RO.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ro-RO.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ro-RO.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ro-RO.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ru-RU.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ru-RU.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ru-RU.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-ru-RU.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sk-SK.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sk-SK.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sk-SK.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sk-SK.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sl-SI.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sl-SI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sl-SI.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sl-SI.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS-Latin.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS-Latin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS-Latin.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS-Latin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sr-RS.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sv-SE.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sv-SE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sv-SE.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-sv-SE.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-th-TH.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-th-TH.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-th-TH.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-th-TH.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-tr-TR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-tr-TR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-tr-TR.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-tr-TR.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-uk-UA.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-uk-UA.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-uk-UA.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-uk-UA.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-vi-VN.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-vi-VN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-vi-VN.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-vi-VN.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-CN.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-CN.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-CN.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-TW.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-TW.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-TW.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/lang/summernote-zh-TW.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/summernote.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/summernote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/summernote.min.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-summernote/summernote.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ar-AR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ar-AR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.bg-BG.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.bg-BG.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ca-CT.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ca-CT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.cs-CZ.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.cs-CZ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.da-DK.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.da-DK.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.de-DE.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.de-DE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.el-GR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.el-GR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.es-AR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.es-AR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.es-ES.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.es-ES.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.fr-FR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.fr-FR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.hr-HR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.hr-HR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.it-IT.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.it-IT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ja-JP.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ja-JP.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ko-KR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ko-KR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.lt-LT.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.lt-LT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.mo-MD.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.mo-MD.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.nb-NB.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.nb-NB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.nl-NL.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.nl-NL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.pl-PL.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.pl-PL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.pt-BR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.pt-BR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ru-RU.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ru-RU.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.sk-SK.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.sk-SK.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.sv-SE.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.sv-SE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.tr-TR.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.tr-TR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ua-UA.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.ua-UA.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.zh-CN.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.zh-CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.zh-TW.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/locales/bootstrap-wysihtml5.zh-TW.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/wysiwyg-color.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/bootstrap-wysihtml5/wysiwyg-color.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/CHANGES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/README.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/adapters/jquery.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/adapters/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/build-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/ckeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/config.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/contents.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/contents.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/bn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/gu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sr-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/tt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/div/dialogs/div.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/div/dialogs/div.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/find/dialogs/find.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/find/dialogs/find.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/flash/dialogs/flash.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/flash/dialogs/flash.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/button.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/checkbox.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/checkbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/form.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/hiddenfield.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/radio.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/radio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/select.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/textarea.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/textarea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/textfield.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/forms/dialogs/textfield.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/iframe/dialogs/iframe.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/iframe/dialogs/iframe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/liststyle/dialogs/liststyle.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/preview/preview.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/preview/preview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/dialogs/options.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/smiley/dialogs/smiley.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/smiley/dialogs/smiley.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/templates/dialogs/templates.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/templates/dialogs/templates.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/templates/dialogs/templates.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/templates/dialogs/templates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/templates/templates/default.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/templates/templates/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/ajax.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/ajax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/api.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/api.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/appendto.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/appendto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/assets/posteddata.php" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/assets/posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/assets/uilanguages/languages.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/assets/uilanguages/languages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/datafiltering.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/datafiltering.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/divreplace.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/divreplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/inlineall.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/inlineall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/inlinebycode.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/inlinebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/inlinetextarea.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/inlinetextarea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/jquery.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/jquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/dialog/assets/my_dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/dialog/dialog.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/dialog/dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/enterkey/enterkey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/htmlwriter/outputhtml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/magicline/magicline.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/magicline/magicline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/toolbar/toolbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/plugins/wysiwygarea/fullpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/readonly.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/readonly.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/replacebyclass.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/replacebyclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/replacebycode.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/replacebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/sample.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/sample.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/sample.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/sample_posteddata.php" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/sample_posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/tabindex.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/tabindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/uicolor.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/uicolor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/uilanguages.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/uilanguages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/xhtmlstyle.html" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/samples/xhtmlstyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/skins/moono/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/styles.js" afterPath="$PROJECT_DIR$/public/backend/global/plugins/ckeditor/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/global/plugins/jquery-nestable/jquery.nestable.css" afterPath="$PROJECT_DIR$/public/backend/global/plugins/jquery-nestable/jquery.nestable.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/about.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/blog.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/coming-soon.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/coming-soon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/error.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/error.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/faq.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/image-crop.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/image-crop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/invoice-2.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/invoice-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/invoice.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/invoice.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/lock-2.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/lock-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/lock.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/lock.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/login-2.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/login-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/login-3.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/login-3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/login.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/portfolio.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/pricing.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/pricing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/search.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/tasks.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/tasks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/css/timeline-old.css" afterPath="$PROJECT_DIR$/public/backend/pages/css/timeline-old.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-amcharts.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-amcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-echarts.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-echarts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-flotcharts.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-flotcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-flowchart.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-flowchart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-google.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-google.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-highcharts.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-highcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-highmaps.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-highmaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-highstock.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-highstock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/charts-morris.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/charts-morris.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/coming-soon.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/coming-soon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-maxlength.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-maxlength.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-multiselect.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-multiselect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-select-splitter.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-select-splitter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-select.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-switch.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-switch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-touchspin.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-bootstrap-touchspin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-clipboard.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-clipboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-code-editors.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-code-editors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-color-pickers.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-color-pickers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-context-menu.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-context-menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-date-time-pickers.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-date-time-pickers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-dropdowns.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-dropdowns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-editors.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-editors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-form-tools-2.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-form-tools-2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-form-tools.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-form-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-ion-sliders.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-ion-sliders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-knob-dials.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-knob-dials.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-multi-select.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-multi-select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-nouisliders.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-nouisliders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/components-typeahead.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/components-typeahead.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/contact.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/custom.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-dashboard.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-orders-view.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-orders-view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-orders.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-orders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-products-edit.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ecommerce-products-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-dropzone.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-dropzone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-editable.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-fileupload.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-fileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-icheck.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-icheck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-image-crop.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-image-crop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-input-mask.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-input-mask.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-repeater.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-repeater.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-samples.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-samples.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-validation-md.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-validation-md.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-validation.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/form-wizard.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/form-wizard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/inbox.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/inbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/jquery-gantt.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/jquery-gantt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/lock-2.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/lock-2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/lock.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/lock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/login-5.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/login-5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/login.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/maps-google.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/maps-google.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/maps-vector.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/maps-vector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-1.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-2.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-3.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-4.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/portfolio-4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/portlet-ajax.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/portlet-ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/portlet-draggable.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/portlet-draggable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/profile.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/search.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-bootstrap.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-colreorder.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-colreorder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-editable.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-fixedheader.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-fixedheader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-managed.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-managed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-responsive.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-responsive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-rowreorder.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-rowreorder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-scroller.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/table-datatables-scroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/tasks.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/tasks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/timeline-2.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/timeline-2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/timeline.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/timeline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-alerts-api.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-alerts-api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-blockui.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-blockui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-bootbox.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-bootbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-bootstrap-growl.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-bootstrap-growl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-buttons.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-buttons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-confirmations.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-confirmations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-datepaginator.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-datepaginator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-extended-modals.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-extended-modals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-general.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-general.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-idletimeout.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-idletimeout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-modals.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-modals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-nestable.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-nestable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-notific8.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-notific8.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-session-timeout.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-session-timeout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-sweetalert.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-sweetalert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-toastr.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-toastr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/ui-tree.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/ui-tree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/backend/pages/scripts/widgets.js" afterPath="$PROJECT_DIR$/public/backend/pages/scripts/widgets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/blocks/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/blocks/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/categories/show-item.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/categories/show-item.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/categories/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/categories/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/channels.php" afterPath="$PROJECT_DIR$/routes/channels.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/console.php" afterPath="$PROJECT_DIR$/routes/console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" />
-    </list>
+    <list default="true" id="7c2801ec-28f4-4949-bf1b-1c381af45724" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -547,65 +9,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CategoryController.php" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToolFactory.php" pinned="true" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ThuongDQ/ToolFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-              <folding>
-                <marker date="1505208380000" expanded="true" signature="2974:3050" ph="..." />
-                <marker date="1505208380000" expanded="true" signature="3101:4730" ph="..." />
-                <marker date="1505208380000" expanded="true" signature="3219:3295" ph="..." />
-                <marker date="1505208380000" expanded="true" signature="3507:3606" ph="..." />
-                <marker date="1505208380000" expanded="true" signature="3791:3884" ph="..." />
-                <marker date="1505208380000" expanded="true" signature="4037:4374" ph="..." />
-                <marker date="1505208380000" expanded="true" signature="4474:4699" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helpers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ThuongDQ/Helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show-item.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-item.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show-content-item.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-content-item.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+            <state relative-caret-position="330">
+              <caret line="123" column="14" lean-forward="false" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -614,8 +27,31 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+            <state relative-caret-position="164">
+              <caret line="49" column="137" lean-forward="false" selection-start-line="49" selection-start-column="137" selection-end-line="49" selection-end-column="148" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show-item.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-item.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="126" column="48" lean-forward="true" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
+              <folding>
+                <marker date="1505255264000" expanded="true" signature="6733:7602" ph="..." />
+                <marker date="1505255264000" expanded="true" signature="6785:6837" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show-content-item.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-content-item.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -632,8 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>use</find>
-      <find>featured_product</find>
       <find>user</find>
       <find>$news-&gt;id</find>
       <find>$laptop</find>
@@ -661,7 +95,9 @@
       <find>categories</find>
       <find>$list_child</find>
       <find>$this-&gt;_data</find>
-      <find>ajax</find>
+      <find>token</find>
+      <find>XMLHttpRequest</find>
+      <find>dd</find>
     </findStrings>
     <replaceStrings>
       <replace>media_get_image_src</replace>
@@ -759,18 +195,18 @@
         <option value="$PROJECT_DIR$/resources/views/backend/categories/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/ProductController.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/products/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/categories/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/DashboardController.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/blocks/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/BackendController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/ThuongDQ/Helpers.php" />
         <option value="$PROJECT_DIR$/app/ThuongDQ/ToolFactory.php" />
         <option value="$PROJECT_DIR$/public/backend/global/css/my-custom.css" />
-        <option value="$PROJECT_DIR$/resources/views/backend/blocks/footer.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/blocks/footer.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/CategoryController.php" />
-        <option value="$PROJECT_DIR$/resources/views/backend/categories/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/categories/show-content-item.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/categories/show-item.blade.php" />
       </list>
@@ -881,11 +317,10 @@
       <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -905,166 +340,195 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Console" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ThuongDQ" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="asset" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="asset" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="demo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="global" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="global" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="categories" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="products" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
@@ -1088,11 +552,11 @@
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\shop\resources\views\backend\categories" />
       <recent name="$PROJECT_DIR$/resources/views/backend/categories" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Frontend" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
       <recent name="$PROJECT_DIR$/public/asset" />
+      <recent name="$PROJECT_DIR$/resources/lang/en" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1106,75 +570,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1218,42 +613,40 @@
       <workItem from="1505140964231" duration="381000" />
       <workItem from="1505141521117" duration="170000" />
       <workItem from="1505163060971" duration="4820000" />
-      <workItem from="1505242473599" duration="218000" />
-      <workItem from="1505243211300" duration="5540000" />
-      <workItem from="1505251229447" duration="2064000" />
+      <workItem from="1505250437142" duration="5828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146606000" />
+    <option name="totallyTimeSpent" value="144612000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20179948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34334764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23521851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23521851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266129" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3158602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31619537" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1272,6 +665,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/frontend/default/assets/js/jquery.prettyPhoto.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1283,18 +686,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#31#68#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/default/blocks/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5985">
-          <caret line="399" column="46" lean-forward="false" selection-start-line="399" selection-start-column="46" selection-end-line="399" selection-end-column="46" />
+        <state relative-caret-position="452">
+          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/UserCommand.php" />
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/UserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/backend/pages/scripts/ui-extended-modals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -1302,11 +713,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/backend/demo/ui_extended_modals_ajax_sample.html" />
+    <entry file="file://$PROJECT_DIR$/public/backend/demo/ui_extended_modals_ajax_sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-103">
           <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,6 +753,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,17 +775,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-626">
           <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/default/blocks/header.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/index_old.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-709">
-          <caret line="319" column="56" lean-forward="false" selection-start-line="319" selection-start-column="46" selection-end-line="319" selection-end-column="56" />
+        <state relative-caret-position="208">
+          <caret line="96" column="103" lean-forward="false" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/index_old.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
@@ -1374,8 +793,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/create_old.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-root.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/create_old.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-root.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2017_08_18_225049_create_jobs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
@@ -1408,6 +839,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,6 +854,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,7 +872,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/create-item.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/create-item.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1454,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1468,9 +900,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontendController.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show_old.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/BackendController.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="181" column="79" lean-forward="false" selection-start-line="181" selection-start-column="79" selection-end-line="181" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show_old.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="75" column="30" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="75" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/BackendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1489,101 +949,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/backend/global/css/my-custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="1" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/blocks/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/blocks/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="87" column="6" lean-forward="false" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/products/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="122" selection-end-column="19" />
+        <state relative-caret-position="960">
+          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ThuongDQ/Helpers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3638">
-          <caret line="3" column="139" lean-forward="false" selection-start-line="3" selection-start-column="139" selection-end-line="3" selection-end-column="139" />
-          <folding>
-            <marker date="1505253009864" expanded="true" signature="2881:2915" ph="..." />
-            <marker date="1505253009864" expanded="true" signature="3038:3050" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-content-item.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+        <state relative-caret-position="250">
+          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ThuongDQ/ToolFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        <state relative-caret-position="-1005">
+          <caret line="87" column="185" lean-forward="false" selection-start-line="87" selection-start-column="147" selection-end-line="87" selection-end-column="185" />
           <folding>
-            <marker date="1505208380000" expanded="true" signature="2974:3050" ph="..." />
-            <marker date="1505208380000" expanded="true" signature="3101:4730" ph="..." />
-            <marker date="1505208380000" expanded="true" signature="3219:3295" ph="..." />
-            <marker date="1505208380000" expanded="true" signature="3507:3606" ph="..." />
-            <marker date="1505208380000" expanded="true" signature="3791:3884" ph="..." />
-            <marker date="1505208380000" expanded="true" signature="4037:4374" ph="..." />
-            <marker date="1505208380000" expanded="true" signature="4474:4699" ph="..." />
+            <marker date="1505164341000" expanded="true" signature="2974:3050" ph="..." />
+            <marker date="1505164341000" expanded="true" signature="3101:4730" ph="..." />
+            <marker date="1505164341000" expanded="true" signature="3219:3295" ph="..." />
+            <marker date="1505164341000" expanded="true" signature="3507:3606" ph="..." />
+            <marker date="1505164341000" expanded="true" signature="3791:3884" ph="..." />
+            <marker date="1505164341000" expanded="true" signature="4037:4374" ph="..." />
+            <marker date="1505164341000" expanded="true" signature="4474:4699" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/blocks/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/default/blocks/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="400" column="31" lean-forward="true" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="81" column="12" lean-forward="true" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/blocks/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <marker date="1504906692000" expanded="true" signature="2555:2622" ph="..." />
+            <marker date="1504906692000" expanded="true" signature="2568:2620" ph="..." />
+            <marker date="1504906692000" expanded="true" signature="2569:2619" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/default/blocks/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="49" column="137" lean-forward="false" selection-start-line="49" selection-start-column="137" selection-end-line="49" selection-end-column="148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="123" column="14" lean-forward="false" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-content-item.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backend/categories/show-item.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="126" column="48" lean-forward="true" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
+          <folding>
+            <marker date="1505255264000" expanded="true" signature="6733:7602" ph="..." />
+            <marker date="1505255264000" expanded="true" signature="6785:6837" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
