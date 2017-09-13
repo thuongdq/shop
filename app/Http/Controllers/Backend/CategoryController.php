@@ -125,20 +125,16 @@ class CategoryController extends BackendController
         }else{
 
             $category = Category::find($id);
-
             if($category !== null) {
 //                dd($request->all());
 //                dd($request->input('name'));
-                if ($request->input('order')) {
-                    $category->order = $request->input('order');
-                }
                 $category->name = $request->input('name');
                 $category->parent = $request->input('parent');
-
-
+                $category->order = $request->input('order');
                 $category->save();
+                $data['report'] = "Cập nhật danh mục <b>$category->name</b> thành công";
 //                dd($category);
-                return 'success';
+                return view('backend.categories.show-item', $data)->withErrors($valid);
             }
             dd($category);
             return 'fail';
