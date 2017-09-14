@@ -8,7 +8,7 @@
             @if(isset($report))
                 <div class="alert alert-success">{!! $report !!}</div>
             @endif
-
+{{--                {!! view_nestable($root_category->id, $root_category->id, $categories_all) !!}--}}
             <div class="caption title-box">
                 <i class="fa fa-info-circle font-red"></i>
                 <span class="caption-subject font-red sbold uppercase">Thông tin</span>
@@ -81,17 +81,22 @@
             type: "success",
             allowOutsideClick: "true",
             showConfirmButton: "btn-success",
-        },
-        function(isConfirm){
-            if (isConfirm){
-//                            swal(sa_popupTitleSuccess, sa_popupMessageSuccess, "success");
-            } else {
-//                            swal(sa_popupTitleCancel, sa_popupMessageCancel, "error");
-            }
         });
         setTimeout(function(){
             location.reload();
         }, 1000);
+        var html = ['data' => '{!! view_nestable($category->id, $category->id, $categories_all) !!}'];
+        /*
+        $("#nestable_list_{{$root_category->id}}").find("li[data-id={{$category->id}}]").find(">.dd-handle").html("{{ $category->name }}");
+        $('#ajax-modal').modal('hide');
+        swal({
+            title: "Cập nhật",
+            text: "Danh mục {{ $category->name }} cập nhật thành công",
+            type: "success",
+            allowOutsideClick: "true",
+            showConfirmButton: "btn-success",
+        });
+        */
     @endif
     $('#action').on('click', function(){
         axios({
@@ -105,11 +110,7 @@
             }
         })
         .then(function (response) {
-            if(response == "success"){
-                alert("ok");
-            }else{
-                $("#form").html(response.data);
-            }
+            $("#form").html(response.data);
         })
         .catch(function (error) {
             console.log(error);

@@ -102,7 +102,31 @@
         <button type="button" class="btn blue" id="action">Lưu lại</button>
     </div>
     <script type="text/javascript">
-        $('#action').on('click', function(){
+        @if(isset($report))
+$('#ajax-modal').modal('hide')
+        swal({
+            title: "Cập nhật",
+            text: "Danh mục {{ $category->name }} cập nhật thành công",
+            type: "success",
+            allowOutsideClick: "true",
+            showConfirmButton: "btn-success",
+        });
+        setTimeout(function(){
+            location.reload();
+        }, 1000);
+        /*
+         $("#nestable_list_{{$root_category->id}}").find("li[data-id={{$category->id}}]").find(">.dd-handle").html("{{ $category->name }}");
+         $('#ajax-modal').modal('hide');
+         swal({
+         title: "Cập nhật",
+         text: "Danh mục {{ $category->name }} cập nhật thành công",
+         type: "success",
+         allowOutsideClick: "true",
+         showConfirmButton: "btn-success",
+         });
+         */
+        @endif
+$('#action').on('click', function(){
             axios({
                 method: 'post',
                 url: "{{ route('admin.category.update-item', ['root' => $root, 'id' => $category->id]) }}",
@@ -113,18 +137,14 @@
                     'parent': $("#parent").val(),
                 }
             })
-            .then(function (response) {
-                if(response == "success"){
-
-                    alert("ok");
-                }else{
+                .then(function (response) {
                     $("#form").html(response.data);
-                }
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
 
+            {{--        alert($("#nestable_list_{{ $root_category->id }}").html());--}}
         });
     </script>
 </form>
