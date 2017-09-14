@@ -5,6 +5,10 @@
 <div class="modal-body">
     <div class="row">
         <div class="col-md-12 ">
+            @if(isset($report))
+                <div class="alert alert-success">{!! $report !!}</div>
+            @endif
+
             <div class="caption title-box">
                 <i class="fa fa-info-circle font-red"></i>
                 <span class="caption-subject font-red sbold uppercase">Thông tin</span>
@@ -69,6 +73,26 @@
     <button type="button" class="btn blue" id="action">Lưu lại</button>
 </div>
 <script type="text/javascript">
+    @if(isset($report))
+        $('#ajax-modal').modal('hide')
+        swal({
+            title: "Cập nhật",
+            text: "Danh mục {{ $category->name }} cập nhật thành công",
+            type: "success",
+            allowOutsideClick: "true",
+            showConfirmButton: "btn-success",
+        },
+        function(isConfirm){
+            if (isConfirm){
+//                            swal(sa_popupTitleSuccess, sa_popupMessageSuccess, "success");
+            } else {
+//                            swal(sa_popupTitleCancel, sa_popupMessageCancel, "error");
+            }
+        });
+        setTimeout(function(){
+            location.reload();
+        }, 1000);
+    @endif
     $('#action').on('click', function(){
         axios({
             method: 'post',
@@ -80,16 +104,17 @@
                 'parent': $("#parent").val(),
             }
         })
-            .then(function (response) {
-                if(response == "success"){
-                    alert("ok");
-                }else{
-                    $("#form").html(response.data);
-                }
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
+        .then(function (response) {
+            if(response == "success"){
+                alert("ok");
+            }else{
+                $("#form").html(response.data);
+            }
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
 
+{{--        alert($("#nestable_list_{{ $root_category->id }}").html());--}}
     });
 </script>

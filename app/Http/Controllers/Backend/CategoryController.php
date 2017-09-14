@@ -101,40 +101,35 @@ class CategoryController extends BackendController
         $data['root_category'] = Category::find($root);
         $data['category'] = Category::find($id);
         $data['root'] = $root;
-//        if($data['category'] !== null){
-//            return view('backend.categories.show-content-item', $data);
-//        }
+
         $valid = Validator::make($request->all(), [
-            'name' => 'required|unique:tdq68_categories,name,'.$id,
+            'name' => 'required',
             'slug' => 'required|unique:tdq68_categories,slug,'.$id,
             'parent' => 'required'
         ], [
             'name.required' => 'Vui lòng nhập Tên chuyên mục',
-            'name.unique' => 'Chuyên mục đã trùng, Vui lòng chọn tên khác',
+            'slug.required' => 'Vui lòng nhập slug chuyên mục',
+            'slug.unique' => 'Slug đã trùng, Vui lòng chọn slug khác',
             'parent.required' => 'Vui lòng nhập Parent ID',
             'parent.exists' => 'Parent ID không hợp lệ'
         ]);
         $valid->sometimes('parent', 'exists:tdq68_categories,id', function($input){
             return $input->parent !== '0';
         });
-
-//        dd($valid);
         if($valid->fails()){
-            return view('backend.categories.show-item', $data)->withErrors($valid);
+            return view('backend.categories.show-content-item', $data)->withErrors($valid);
 //            return redirect()->back()->withErrors($valid)->withInput();
         }else{
-
             $category = Category::find($id);
             if($category !== null) {
-//                dd($request->all());
-//                dd($request->input('name'));
                 $category->name = $request->input('name');
                 $category->parent = $request->input('parent');
                 $category->order = $request->input('order');
                 $category->save();
                 $data['report'] = "Cập nhật danh mục <b>$category->name</b> thành công";
-//                dd($category);
-                return view('backend.categories.show-item', $data)->withErrors($valid);
+                $data['category'] = $category;
+                $data['categories_all'] = make_categories(Category::all());
+                return view('backend.categories.show-content-item', $data)->withErrors($valid);
             }
             dd($category);
             return 'fail';

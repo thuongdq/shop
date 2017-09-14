@@ -24,7 +24,10 @@
                 "link": true,
                 "image": false
             });
-    }
+        }
+//        $('#form').on('change', function(){
+//            alert($('#form').html);
+//        });
     });
 </script>
 <form action="{{ route('admin.category.update', ['id' => $category->id]) }}" method="post" id="form">
@@ -38,7 +41,6 @@
                 <div class="caption title-box">
                     <i class="fa fa-info-circle font-red"></i>
                     <span class="caption-subject font-red sbold uppercase">Thông tin</span>
-                    <div class="alert alert-success"></div>
                 </div>
                 <div class="form-group">
                     <label for="single" class="control-label">Danh mục cha</label>
@@ -113,6 +115,7 @@
             })
             .then(function (response) {
                 if(response == "success"){
+
                     alert("ok");
                 }else{
                     $("#form").html(response.data);
