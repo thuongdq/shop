@@ -15,3 +15,9 @@ storage/*.key
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
 /.ide
+/.idea
+/vendor
+/node_modules
+/tmp
+/thumbs.db
+.DS_Store
