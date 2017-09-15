@@ -85,7 +85,7 @@
         setTimeout(function(){
             location.reload();
         }, 1000);
-        var html = ['data' => '{!! view_nestable($category->id, $category->id, $categories_all) !!}'];
+        {{--var html = ['data' => '{!! view_nestable($category->id, $category->id, $categories_all) !!}'];--}}
         /*
         $("#nestable_list_{{$root_category->id}}").find("li[data-id={{$category->id}}]").find(">.dd-handle").html("{{ $category->name }}");
         $('#ajax-modal').modal('hide');
