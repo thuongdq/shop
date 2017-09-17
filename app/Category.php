@@ -19,10 +19,19 @@ class Category extends Model
         'slug',
         'order',
         'parent',
+        'description',
         'meta_title',
         'meta_keywords',
         'meta_description'
     ];
+
+    public static function update_data($category ,$data){
+        foreach ($data as $key=>$value){
+            $category->$key = $value;
+        }
+        return $category->save();
+    }
+
     public function children()
     {
         return $this->hasMany(self::class, 'parent', 'id');

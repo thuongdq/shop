@@ -34,7 +34,7 @@
                     }).on('change', updateOutput);
                     // output initial serialised data
                     updateOutput($('#nestable_list_{{ $category->id }}').data('output', $('#nestable_list_{{ $category->id }}_output')));
-                    $('#nestable_list_{{ $category->id }}_output').hide();
+{{--                    $('#nestable_list_{{ $category->id }}_output').hide();--}}
 
 
                     $('#nestable_list_menu').on('click', function (e) {
@@ -55,9 +55,12 @@
             alert($(this).parent().parent().data('id'));
         });
 
+
+
         jQuery(document).ready(function() {
             UINestable.init();
-            //ajax change:
+
+            //load ajax:
             $.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner =
                 '<div class="loading-spinner" style="width: 200px; margin-left: -100px;">' +
                 '<div class="progress progress-striped active">' +
@@ -76,78 +79,13 @@
                     });
                 }, 1000);
             });
-//            $('.mt-sweetalert').each(function(){
-//                var sa_title = $(this).data('title');
-//                var sa_message = $(this).data('message');
-//                var sa_type = $(this).data('type');
-//                var sa_allowOutsideClick = $(this).data('allow-outside-click');
-//                var sa_showConfirmButton = $(this).data('show-confirm-button');
-//                var sa_showCancelButton = $(this).data('show-cancel-button');
-//                var sa_closeOnConfirm = $(this).data('close-on-confirm');
-//                var sa_closeOnCancel = $(this).data('close-on-cancel');
-//                var sa_confirmButtonText = $(this).data('confirm-button-text');
-//                var sa_cancelButtonText = $(this).data('cancel-button-text');
-//                var sa_popupTitleSuccess = $(this).data('popup-title-success');
-//                var sa_popupMessageSuccess = $(this).data('popup-message-success');
-//                var sa_popupTitleCancel = $(this).data('popup-title-cancel');
-//                var sa_popupMessageCancel = $(this).data('popup-message-cancel');
-//                var sa_confirmButtonClass = $(this).data('confirm-button-class');
-//                var sa_cancelButtonClass = $(this).data('cancel-button-class');
-//
-//                $(this).click(function(){
-//                    //console.log(sa_btnClass);
-//                    swal({
-//                            title: sa_title,
-//                            text: sa_message,
-//                            type: sa_type,
-//                            allowOutsideClick: sa_allowOutsideClick,
-//                            showConfirmButton: sa_showConfirmButton,
-//                            showCancelButton: sa_showCancelButton,
-//                            confirmButtonClass: sa_confirmButtonClass,
-//                            cancelButtonClass: sa_cancelButtonClass,
-//                            closeOnConfirm: sa_closeOnConfirm,
-//                            closeOnCancel: sa_closeOnCancel,
-//                            confirmButtonText: sa_confirmButtonText,
-//                            cancelButtonText: sa_cancelButtonText,
-//                        },
-//                        function(isConfirm){
-//                            if (isConfirm){
-//                                swal(sa_popupTitleSuccess, sa_popupMessageSuccess, "success");
-//                            } else {
-//                                swal(sa_popupTitleCancel, sa_popupMessageCancel, "error");
-//                            }
-//                        });
-//                });
-//            });
-
-            $('#ajax-modal').on('hidden.bs.modal', function () {
-//                location.reload();
-//                swal({
-//                        title: "title",
-//                        text: "title",
-//                        type: "success",
-//                        allowOutsideClick: "true",
-//                        showConfirmButton: "btn-success",
-//                    },
-//                    function(isConfirm){
-//                        if (isConfirm){
-////                            swal(sa_popupTitleSuccess, sa_popupMessageSuccess, "success");
-//                        } else {
-////                            swal(sa_popupTitleCancel, sa_popupMessageCancel, "error");
-//                        }
-//                    });
-
-            })
 
         });
-
-
     </script>
 
 @endsection
 @section('content')
     <!-- BEGIN PAGE BAR -->
-    <button class="btn btn-success mt-sweetalert" data-title="Sweet Alerts with Icons" data-message="Success Icon" data-type="success" data-allow-outside-click="true" data-confirm-button-class="btn-success">Icon Success Alert</button>
     <div class="page-bar">
         <ul class="page-breadcrumb">
             <li>
@@ -250,12 +188,21 @@
                     </div>
                 </div>
             </div>
+        <div class="col-md-6">
+            <div class="portlet light bordered">
+                <div class="portlet-body ">
+                    <div class="dd" id="nestable_list_222">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row">
         <div class="col-md-12">
                 <textarea id="nestable_list_{{ $category->id }}_output" class="form-control col-md-12 margin-bottom-10"></textarea>
+
         </div>
-    </div>
 
 
     <a class="btn btn-outline dark" data-toggle="modal" href="#change"> View Demo </a>
@@ -312,6 +259,9 @@
 
     <a class="btn btn-outline dark ajax-demo" id="ajax-demo" data-url="/backend/demo/ui_extended_modals_ajax_sample.html" data-toggle="modal"> View Demo </a>
     <!-- ajax -->
-    <div id="ajax-modal" class="modal fade" tabindex="-1"> </div>
+    <div id="ajax-modal" class="modal fade" tabindex="-1">
+        {{--<textarea id="nestable_list_{{ $category->id }}_init" class="form-control col-md-12 margin-bottom-10">{{get_data_nestable($category->id, $category->id, $categories_all)}}</textarea>--}}
+    </div>
+    </div>
 
 @endsection

@@ -2,6 +2,7 @@
 namespace App\ThuongDQ;
 
 class ToolFactory{
+    /** ------------------------ BEGIN MEDIA ------------------------ **/
     public function getThumbnail($fileName, $suffix = ''){
         if($fileName){
             return preg_replace("/(.*)\.(.*)/i", "$1{$suffix}.$2", $fileName);
@@ -34,7 +35,9 @@ class ToolFactory{
             return '<img src="'.$image_src.'" class="'.$class.'" '.$attribute.' alt="'.$post_title.'">';
         }
     }
+    /** ------------------------ END MEDIA ------------------------ **/
 
+    /** ------------------------ BEGIN TOOL ------------------------ **/
     public function getCurrency($number, $region, $symbol, $isPrefix){
         $currency = $number;
         switch ($region){
@@ -68,7 +71,64 @@ class ToolFactory{
         return $newArr;
     }
 
+    public function getAllChild($current, $list, $result){
+        if(isset($list[$current])){
+            foreach ($list[$current] as $key=>$value){
+                $result[] = $value->id;
+                if(isset($list[$value->id])){
+                    $result = $this->getAllChild($value, $list, $result);
+                }
+            }
+        }
+        return $result;
+    }
+    /** ------------------------ END TOOL ------------------------ **/
+
+
+    /** ------------------------ BEGIN DESIGN ------------------------ **/
+    public function getDataNestable($root, $current, $list, $result){
+        foreach ($list[$current] as $key=>$value){
+            if($root == 2){
+                $count = $value->news()->count();
+            }else{
+                $count = $value->products()->count();
+            }
+
+            $new = [];
+            $new['id'] = $value->id;
+            $new['name'] = $value->name;
+            $new['extends'] = '
+                <div class="group-action">
+                    <a class="btn btn-circle btn-icon-only btn-default btn-action btn grey-cascade" href="#">
+                        '.$count.'
+                    </a>
+                    <a class="btn btn-circle btn-icon-only btn-default btn-action ajax-create" data-url="'.route('admin.category.show-item', ['root' => $root, 'id' => $value->id] ).'" data-toggle="modal">
+                        <i class="icon-cloud-upload"></i>
+                    </a>
+                    <a class="btn btn-circle btn-icon-only btn-default btn-action ajax-update" data-url="/backend/demo/ui_extended_modals_ajax_sample.html" data-toggle="modal">
+                        <i class="icon-wrench"></i>
+                    </a>
+                    <a class="btn btn-circle btn-icon-only btn-default btn-action" href="'.route('admin.category.delete', ['id'=>$value->id]).'"
+                    onclick="event.preventDefault(); window.confirm(\'Bạn đã chắc chắn muốn xoá danh mục '.$value->name.' chưa ?\') ? document.getElementById(\'category-delete-'. $value->id.'\').submit() : 0;"
+                    >
+                        <i class="icon-trash"></i>
+                    </a>
+                    <form action="'.route('admin.category.delete', ['id' => $value->id]).'"
+                          method="post"
+                          id="category-delete-'.$value->id.'">
+                        '.csrf_field().method_field('delete').'
+                    </form>
+                </div>
+            ';
+            if(isset($list[$value->id])){
+                $new['children'] = $this->getDataNestable($root, $value->id, $list, []);
+            }
+            $result[] = $new;
+        }
+        return $result;
+    }
     //<div class="dd" id="nestable_list_id">
+
     public function viewNestable($root,$current, $list, $result = ''){
         $result .= '<ol class="dd-list">';
         foreach ($list[$current] as $key=>$item){
@@ -77,7 +137,7 @@ class ToolFactory{
             }else{
                 $count = $item->products()->count();
             }
-            $result .=  '<li class="dd-item" data-id="'.$item->id.'">';
+            $result .=  '<li class="dd-item" data-id="'.$item->id.'" data-name="'.$item->name.'">';
             $result .=  '<div class="dd-handle"> 
                             '.$item->name.'
                         </div>
@@ -112,26 +172,31 @@ class ToolFactory{
     }
     //</div>
 
-
-    public function viewSelectList($selected, $parent, $list, $prefix, $result){
+    public function viewSelectList($selected, $parent, $disabled, $list, $prefix, $result){
         foreach ($list[$parent->id] as $key => $item){
             if($selected == $item->id){
                 $select = 'selected';
             }else{
                 $select = '';
             }
-            $result .= '<option value="'.$item->id.'" '.$select.'>'.$prefix.$item->name.'</option>';
+            if(in_array($item->id, $disabled)){
+                $disable = ' disabled="disabled"';
+            }else{
+                $disable = '';
+            }
+            $result .= '<option value="'.$item->id.'" '.$select.$disable.'>'.$prefix.$item->name.'</option>';
             if(isset($list[$item->id])){
-                $result = $this->viewSelectList($selected, $item, $list,  $prefix.$prefix.$prefix, $result);
+                $result = $this->viewSelectList($selected, $item, $disabled, $list,  $prefix.$prefix.$prefix, $result);
             }
         }
         return $result;
     }
 
+
     /*
     $selected - ID of element selected
     $parent - Data of Parent
-    $list - List Data of element - array with key is parent id
+    $list - List Data of array element - with key is parent id
     */
     public function getDataJstree($selected, $parent, $list, $result){
         if(empty($result)){
@@ -188,5 +253,6 @@ class ToolFactory{
         }
         return $result;
     }
+    /** ------------------------ END DESIGN ------------------------ **/
 }
 

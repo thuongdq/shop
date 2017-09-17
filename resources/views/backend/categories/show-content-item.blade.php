@@ -8,7 +8,7 @@
             @if(isset($report))
                 <div class="alert alert-success">{!! $report !!}</div>
             @endif
-{{--                {!! view_nestable($root_category->id, $root_category->id, $categories_all) !!}--}}
+            {{--                {!! view_nestable($root_category->id, $root_category->id, $categories_all) !!}--}}
             <div class="caption title-box">
                 <i class="fa fa-info-circle font-red"></i>
                 <span class="caption-subject font-red sbold uppercase">Thông tin</span>
@@ -26,15 +26,9 @@
                        value="{{ $category->name }}">
                 <span class="help-block">{{ $errors->first('name') }}</span>
             </div>
-            <div class="form-group {{ $errors->has('slug') ? 'has-error' : ''}}">
-                <label>Slug</label>
-                <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug"
-                       value="{{ $category->slug }}">
-                <span class="help-block">{{ $errors->first('slug') }}</span>
-            </div>
             <div class="form-group {{ $errors->has('description') ? 'has-error' : ''}}">
                 <label>Mô tả</label>
-                <textarea class="wysihtml5 form-control" rows="6" name="description" data-error-container="#editor1_error">{{ $category->description }}</textarea>
+                <textarea class="wysihtml5 form-control" rows="6" id="description" name="description" data-error-container="#editor1_error">{{ $category->description }}</textarea>
                 <span class="help-block">{{ $errors->first('description') }}</span>
             </div>
             <div class="form-group {{ $errors->has('order') ? 'has-error' : ''}}">
@@ -48,22 +42,28 @@
                 <i class="fa fa-search font-red"></i>
                 <span class="caption-subject font-red sbold uppercase">SEO</span>
             </div>
-            <div class="form-group {{ $errors->has('meta_title') ? 'has-error' : ''}}">
-                <label>Meta Title</label>
-                <input type="text" class="form-control" id="meta_title" name="meta_title" placeholder="Meta Title"
-                       value="{{ $category->meta_title }}">
-                <span class="help-block">{{ $errors->first('meta_title') }}</span>
+            <div class="form-group {{ $errors->has('seo_title') ? 'has-error' : ''}}">
+                <label>SEO Title</label>
+                <input type="text" class="form-control" id="seo_title" name="seo_title" placeholder="Meta Title"
+                       value="{{ $category->seo_title }}">
+                <span class="help-block">{{ $errors->first('seo_title') }}</span>
             </div>
             <div class="form-group {{ $errors->has('slug') ? 'has-error' : ''}}">
-                <label>Meta Keywords</label>
-                <input type="text" class="form-control" id="meta_keywords" name="meta_keywords" placeholder="Slug"
-                       value="{{ $category->meta_keywords }}">
-                <span class="help-block">{{ $errors->first('meta_keywords') }}</span>
+                <label>Slug</label>
+                <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug"
+                       value="{{ $category->slug }}">
+                <span class="help-block">{{ $errors->first('slug') }}</span>
             </div>
             <div class="form-group {{ $errors->has('meta_description') ? 'has-error' : ''}}">
                 <label>Meta Description</label>
-                <textarea rows="6" name="description" class="form-control">{{ $category->meta_description }}</textarea>
+                <textarea rows="6" id="meta_description" name="meta_description" class="form-control">{{ $category->meta_description }}</textarea>
                 <span class="help-block">{{ $errors->first('meta_description') }}</span>
+            </div>
+            <div class="form-group {{ $errors->has('keyword') ? 'has-error' : ''}}">
+                <label>Meta Keywords</label>
+                <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Slug"
+                       value="{{ $category->keywords }}">
+                <span class="help-block">{{ $errors->first('keyword') }}</span>
             </div>
         </div>
     </div>
@@ -72,7 +72,10 @@
     <button type="button" class="btn default" data-dismiss="modal">Huỷ</button>
     <button type="button" class="btn blue" id="action">Lưu lại</button>
 </div>
+{{--{{get_data_nestable($root_category->id, $root_category->id, $categories_all)}}--}}
+<textarea id="nestable_list_{{ $root_category->id }}_init" class="form-control col-md-12 margin-bottom-10">{{get_data_nestable($root_category->id, $root_category->id, $categories_all)}}</textarea>
 <script type="text/javascript">
+    $("#nestable_list_{{ $root_category->id }}_init").hide();
     @if(isset($report))
         $('#ajax-modal').modal('hide')
         swal({
@@ -82,31 +85,45 @@
             allowOutsideClick: "true",
             showConfirmButton: "btn-success",
         });
-        setTimeout(function(){
-            location.reload();
-        }, 1000);
-        {{--var html = ['data' => '{!! view_nestable($category->id, $category->id, $categories_all) !!}'];--}}
-        /*
-        $("#nestable_list_{{$root_category->id}}").find("li[data-id={{$category->id}}]").find(">.dd-handle").html("{{ $category->name }}");
-        $('#ajax-modal').modal('hide');
-        swal({
-            title: "Cập nhật",
-            text: "Danh mục {{ $category->name }} cập nhật thành công",
-            type: "success",
-            allowOutsideClick: "true",
-            showConfirmButton: "btn-success",
+
+        var id = {{$root_category->id}};
+        var data = jQuery.parseJSON($("#nestable_list_"+id+"_init").val());
+        var html = get_view_nestable(data, '');
+        $("#nestable_list_"+id).html(html);
+
+        //load ajax:
+        $.fn.modal.defaults.spinner = $.fn.modalmanager.defaults.spinner =
+            '<div class="loading-spinner" style="width: 200px; margin-left: -100px;">' +
+            '<div class="progress progress-striped active">' +
+            '<div class="progress-bar" style="width: 100%;"></div>' +
+            '</div>' +
+            '</div>';
+        $.fn.modalmanager.defaults.resize = true;
+        var $modal = $('#ajax-modal');
+        $('.ajax-create, .ajax-update').on('click', function(){
+            // create the backdrop and wait for next modal to be triggered
+            $('body').modalmanager('loading');
+            var el = $(this);
+            setTimeout(function(){
+                $modal.load(el.attr('data-url'), '', function(){
+                    $modal.modal();
+                });
+            }, 1000);
         });
-        */
     @endif
     $('#action').on('click', function(){
         axios({
             method: 'post',
             url: "{{ route('admin.category.update-item', ['root' => $root, 'id' => $category->id]) }}",
             data: {
-                'name': $("#name").val(),
-                'slug': $("#slug").val(),
-                'order' : $("#order").val(),
                 'parent': $("#parent").val(),
+                'name': $("#name").val(),
+                'description' : $("#description").val(),
+                'order' : $("#order").val(),
+                'seo_title' : $("#seo_title").val(),
+                'slug': $("#slug").val(),
+                'meta_description' : $("#meta_description").val(),
+                'keyword' : $("#keyword").val()
             }
         })
         .then(function (response) {

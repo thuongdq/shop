@@ -1184,8 +1184,8 @@ class CategoriesTableSeeder extends Seeder
         $categories = Category::all();
         foreach ($categories as $category){
             $category->description = 'Description:'.$category->name;
-            $category->meta_title = 'Meta Title:'.$category->name;
-            $category->meta_keywords = 'Meta Keyword:'.$category->name;
+            $category->seo_title = 'SEO Title:'.$category->name;
+            $category->keyword = 'Keyword:'.$category->name;
             $category->meta_description = 'Meta Description:'.$category->name;
             $category->save();
         }

@@ -17,7 +17,31 @@ class CategoryController extends BackendController
      */
     public function __construct()
     {
+//        dd(json_decode('[{"name":"Sự kiện23333","id":3},{"name":"Xã hội 44444","id":4,"children":[{"name":"Chính trị","id":5},{"name":"Phóng sự-Ký sựrrrr","id":6},{"name":"Giao thông 2222","id":7},{"name":"Môi trường","id":8},{"name":"Hồ sơ","id":9}]},{"name":"Thế giới eerrrr","id":10,"children":[{"name":"Châu Á222444","id":11},{"name":"EU & Nga","id":12},{"name":"Châu Mỹ","id":13},{"name":"Điểm nóng","id":14},{"name":"Kiều bào","id":15},{"name":"Tư liệu","id":16}]},{"name":"Sức mạng số","id":17,"children":[{"name":"Máy tính - Mạng","id":18},{"name":"Di động - Viễn thông 77","id":19},{"name":"Điện tử tiêu dùng","id":20},{"name":"Nghe nhìn","id":21},{"name":"Phần mềm - Bảo mật","id":22},{"name":"Thủ thuật - Mẹo vặt","id":23},{"name":"Thị trường công nghệ","id":24}]},{"name":"Sức khoẻ","id":25,"children":[{"name":"Kiến thức giới tính","id":26},{"name":"Tư vấn","id":27},{"name":"Làm đẹp","id":28}]},{"name":"Thể thao","id":29,"children":[{"name":"Thể thao trong nước","id":30},{"name":"Thể thao quốc tế","id":31},{"name":"Bóng đá trong nước","id":32},{"name":"Châu Âu","id":33},{"name":"Bóng đá Anh","id":34},{"name":"Bóng đá TBN","id":35},{"name":"Tennis","id":36},{"name":"Cờ vua","id":37}]},{"name":"Giáo dục","id":38,"children":[{"name":"Tin tuyển sinh","id":39},{"name":"Khuyến học","id":40},{"name":"Gương sáng","id":41},{"name":"IELTS cùng Scots","id":42},{"name":"Du học www","id":43}]},{"name":"Kinh doanh","id":44,"children":[{"name":"Tài chính - Đầu tư","id":45},{"name":"Thị trường","id":46},{"name":"Doanh nghiệp","id":47},{"name":"Khởi nghiệp","id":48},{"name":"Bảo vệ NTD","id":49},{"name":"Quốc tế","id":50},{"name":"Nhà đất","id":51}]},{"name":"Văn hoá","id":52,"children":[{"name":"Đời sống văn hóa","id":53},{"name":"Sân khấu - Dân gian","id":54},{"name":"Du lịch - Khám phá","id":55},{"name":"Văn học","id":56},{"name":"Điện ảnh","id":57},{"name":"Âm nhạc 1231","id":58}]},{"name":"Nhịp sống trẻ","id":59,"children":[{"name":"Người Việt trẻ","id":60},{"name":"Phóng sự trẻ","id":61}]},{"name":"Xe++","id":62,"children":[{"name":"Thị trường xe","id":63},{"name":"Văn hoá xe","id":64},{"name":"Tư vấn xe","id":65},{"name":"Đua xe","id":66},{"name":"Giá xe","id":67}]},{"name":"Tình yêu","id":68,"children":[{"name":"Gia đình","id":69},{"name":"Góc tâm hồn","id":70},{"name":"Tình yêu","id":71}]},{"name":"Du lịch","id":72},{"name":"Pháp luật","id":73},{"name":"Chuyện lạ","id":74},{"name":"Giải trí","id":75,"children":[{"name":"Sao Việt","id":76},{"name":"Hollywood","id":77},{"name":"Châu Á","id":78},{"name":"Thời trang","id":79},{"name":"Xem - Ăn - Chơi","id":80}]}]'));
+
+//        $data['categories'] = make_categories(Category::all());
+//        $data_nestabe = $this->get_demo(2, $data['categories'], $result = []);
+//        dd(json_encode($data_nestabe));
+//        $category = Category::find(2);
+//        $disable = get_all_child($category, make_categories(Category::all()));
+//        dd($disable);
         parent::__construct();
+    }
+
+
+
+    function get_demo($root, $data, $result = []){
+        foreach ($data[$root] as $key=>$value){
+            $new = [];
+            $new['id'] = $value['id'];
+            $new['name'] = $value['name'];
+
+            if(isset($data[$value['id']])){
+                $new['children'] = $this->get_demo($value->id, $data);
+            }
+            $result[] = $new;
+        }
+        return $result;
     }
 
     /**
@@ -90,6 +114,18 @@ class CategoryController extends BackendController
         $data['root_category'] = Category::find($root);
         $data['category'] = Category::find($id);
         $data['root'] = $root;
+        
+        $data['data'] = [];
+        $data['data']['id'] = $id;
+        $data['data']['parent'] =  $data['category']->parent;
+        $data['data']['name'] =  $data['category']->name;
+        $data['data']['description'] =  $data['category']->description;
+        $data['data']['order'] =  $data['category']->order;
+        $data['data']['seo_title'] =  $data['category']->seo_title;
+        $data['data']['slug'] =  $data['category']->slug;
+        $data['data']['meta_description'] =  $data['category']->meta_description;
+        $data['data']['keyword'] =  $data['category']->keyword;
+        
         if($data['category'] !== null){
             return view('backend.categories.show-item', $data);
         }
@@ -97,10 +133,20 @@ class CategoryController extends BackendController
     }
 
     public function update_item(Request $request, $root, $id){
-
+//        dd($request->all());
         $data['root_category'] = Category::find($root);
         $data['category'] = Category::find($id);
         $data['root'] = $root;
+        
+        $data['data'] = [];
+        $data['data']['parent'] =  $request->input('parent');
+        $data['data']['name'] =  $request->input('name');
+        $data['data']['description'] =  $request->input('description');
+        $data['data']['order'] =  $request->input('order');
+        $data['data']['seo_title'] =  $request->input('seo_title');
+        $data['data']['slug'] =  $request->input('slug');
+        $data['data']['meta_description'] =  $request->input('meta_description');
+        $data['data']['keyword'] =  $request->input('keyword');
 
         $valid = Validator::make($request->all(), [
             'name' => 'required',
@@ -117,19 +163,16 @@ class CategoryController extends BackendController
             return $input->parent !== '0';
         });
         if($valid->fails()){
-            return view('backend.categories.show-content-item', $data)->withErrors($valid);
+            return view('backend.categories.show-item', $data)->withErrors($valid);
 //            return redirect()->back()->withErrors($valid)->withInput();
         }else{
             $category = Category::find($id);
             if($category !== null) {
-                $category->name = $request->input('name');
-                $category->parent = $request->input('parent');
-                $category->order = $request->input('order');
-                $category->save();
+                Category::update_data($category, $data['data']);
                 $data['report'] = "Cập nhật danh mục <b>$category->name</b> thành công";
                 $data['category'] = $category;
                 $data['categories_all'] = make_categories(Category::all());
-                return view('backend.categories.show-content-item', $data)->withErrors($valid);
+                return view('backend.categories.show-item', $data)->withErrors($valid);
             }
             dd($category);
             return 'fail';

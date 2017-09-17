@@ -20,8 +20,8 @@ class CreateCategoriesTable extends Migration
             $table->text('description')->nullable();
             $table->integer('order')->default(0);
             $table->integer('parent')->unsigned()->default(0)->nullable();
-            $table->string('meta_title')->nullable();
-            $table->text('meta_keywords')->nullable();
+            $table->string('seo_title')->nullable();
+            $table->text('keyword')->nullable();
             $table->text('meta_description')->nullable();
             $table->timestamps();
         });

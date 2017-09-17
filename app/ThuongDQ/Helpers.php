@@ -13,6 +13,8 @@ if(!function_exists('get_thumbnail')){
         return Tool::mediaImageView($filename, $suffix,$post_title, $post_content,$class, $attribute, $lazyload);
     }
 
+
+
     function get_currency($number, $region = 'en', $symbol='$', $isPrefix = true){
         return Tool::getCurrency($number, $region, $symbol, $isPrefix);
     }
@@ -21,8 +23,17 @@ if(!function_exists('get_thumbnail')){
         return Tool::makeCategories($categories, $not_cate );
     }
 
-    function view_select_list($selected, $parent, $list, $prefix="", $result=""){
-        return Tool::viewSelectList($selected, $parent, $list, $prefix, $result);
+    function get_all_child($current, $list, $result = []){
+        return Tool::getAllChild($current, $list, $result);
+    }
+
+
+    function view_select_list($current, $parent, $disabled = [], $list, $prefix="", $result=""){
+        return Tool::viewSelectList($current, $parent, $disabled, $list, $prefix, $result);
+    }
+
+    function get_data_nestable($root, $current, $list, $result = []){
+        return json_encode(Tool::getDataNestable($root, $current, $list, $result));
     }
 
     function view_nestable($root, $current, $list, $result = ''){
