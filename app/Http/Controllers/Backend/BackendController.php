@@ -19,8 +19,10 @@ class BackendController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
-        View::share('categories_all', make_categories(Category::all()));
+//        View::share('categories_all', make_categories(Category::all()));
+
 //        $this->_data['root_categories'] = Category::where('parent', 0)->where('id', '<>', 1)->get();
+        $this->_data['categories_all'] = make_categories(Category::all());
     }
 
 

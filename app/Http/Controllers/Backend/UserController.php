@@ -26,20 +26,24 @@ class UserController extends BackendController
      */
     public function index()
     {
+        $data = $this->_data;
         $data['title'] = __('backend/users/index.title');
         $data['users'] = User::all();
         return view('backend.users.index', $data);
     }
 
     public function profile(){
-        return view('backend.users.profile');
+        $data = $this->_data;
+        return view('backend.users.profile', $data);
     }
 
     public function create(){
-        return view('backend.users.create');
+        $data = $this->_data;
+        return view('backend.users.create', $data);
     }
 
     public function store(Request $request){
+        $data = $this->_data;
         $valid = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|email|unique:tdq68_users,email',
@@ -66,6 +70,7 @@ class UserController extends BackendController
     }
 
     public function show($id){
+        $data = $this->_data;
         $data['user'] = User::find($id);
         if($data['user'] !== null){
             return view('backend.users.show', $data);
@@ -75,6 +80,7 @@ class UserController extends BackendController
 
     public function update(Request $request, $id){
         dd($request->all());
+        $data = $this->_data;
         $valid = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|email|unique:tdq68_users,email,'.$id,
@@ -105,6 +111,7 @@ class UserController extends BackendController
     }
 
     public function delete($id){
+        $data = $this->_data;
         $user = User::find($id);
         if($user !== null){
             $user->delete();

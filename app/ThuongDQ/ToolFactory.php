@@ -1,6 +1,8 @@
 <?php
 namespace App\ThuongDQ;
 
+use App\Category;
+
 class ToolFactory{
     /** ------------------------ BEGIN MEDIA ------------------------ **/
     public function getThumbnail($fileName, $suffix = ''){
@@ -82,11 +84,35 @@ class ToolFactory{
         }
         return $result;
     }
+
+    public function orderList($list, $order = 'asc'){
+        $list_order = [];
+        for ($i = 0; $i < count($list); $i++){
+            for($j = $i + 1; $j < count($list); $j++){
+                if($order == 'asc'){
+                    if($list[$i]->order > $list[$j]->order){
+                        $tmp = $list[$i];
+                        $list[$i] = $list[$j];
+                        $list[$j] = $tmp;
+                    }
+                }else{
+                    if($list[$i]->order < $list[$j]->order){
+                        $tmp = $list[$i];
+                        $list[$i] = $list[$j];
+                        $list[$j] = $tmp;
+                    }
+                }
+
+            }
+        }
+        return $list;
+    }
     /** ------------------------ END TOOL ------------------------ **/
 
 
     /** ------------------------ BEGIN DESIGN ------------------------ **/
-    public function getDataNestable($root, $current, $list, $result){
+    public function getDataNestable($root, $current, $list, $order, $result){
+        $list[$current] = $this->orderList($list[$current], $order);
         foreach ($list[$current] as $key=>$value){
             if($root == 2){
                 $count = $value->news()->count();
@@ -121,16 +147,17 @@ class ToolFactory{
                 </div>
             ';
             if(isset($list[$value->id])){
-                $new['children'] = $this->getDataNestable($root, $value->id, $list, []);
+                $new['children'] = $this->getDataNestable($root, $value->id, $list, $order, []);
             }
             $result[] = $new;
         }
         return $result;
     }
-    //<div class="dd" id="nestable_list_id">
 
-    public function viewNestable($root,$current, $list, $result = ''){
+    //<div class="dd" id="nestable_list_id">
+    public function viewNestable($root,$current, $list, $order = 'asc', $result = ''){
         $result .= '<ol class="dd-list">';
+        $list[$current] = $this->orderList($list[$current], $order);
         foreach ($list[$current] as $key=>$item){
             if($root == 2){
                 $count = $item->news()->count();
@@ -139,16 +166,16 @@ class ToolFactory{
             }
             $result .=  '<li class="dd-item" data-id="'.$item->id.'" data-name="'.$item->name.'">';
             $result .=  '<div class="dd-handle"> 
-                            '.$item->name.'
+                            '.$item->name.'---'.$item->id.'
                         </div>
                         <div class="group-action">
                             <a class="btn btn-circle btn-icon-only btn-default btn-action btn grey-cascade" href="#">
                                 '.$count.'
                             </a>
-                            <a class="btn btn-circle btn-icon-only btn-default btn-action ajax-create" data-url="'.route('admin.category.show-item', ['root' => $root, 'id' => $item->id] ).'" data-toggle="modal">
+                            <a class="btn btn-circle btn-icon-only btn-default btn-action ajax-create" data-url="'.route('admin.category.create-item', ['root' => $root,'parent' => $item->id] ).'" data-toggle="modal">
                                 <i class="icon-cloud-upload"></i>
                             </a>
-                            <a class="btn btn-circle btn-icon-only btn-default btn-action ajax-update" data-url="/backend/demo/ui_extended_modals_ajax_sample.html" data-toggle="modal">
+                            <a class="btn btn-circle btn-icon-only btn-default btn-action ajax-update" data-url="'.route('admin.category.show-item', ['root' => $root, 'id' => $item->id] ).'" data-toggle="modal">
                                 <i class="icon-wrench"></i>
                             </a>
                             <a class="btn btn-circle btn-icon-only btn-default btn-action" href="'.route('admin.category.delete', ['id'=>$item->id]).'"
@@ -163,7 +190,7 @@ class ToolFactory{
                             </form>
                         </div>';
             if(isset($list[$item->id])){
-                $result = $this->viewNestable($root, $item->id, $list, $result);
+                $result = $this->viewNestable($root, $item->id, $list, $order, $result);
             }
             $result .= '</li>';
         }
@@ -172,7 +199,8 @@ class ToolFactory{
     }
     //</div>
 
-    public function viewSelectList($selected, $parent, $disabled, $list, $prefix, $result){
+    public function viewSelectList($selected, $parent, $disabled, $list, $prefix, $order, $result){
+        $list[$parent->id] = $this->orderList($list[$parent->id]);
         foreach ($list[$parent->id] as $key => $item){
             if($selected == $item->id){
                 $select = 'selected';
@@ -186,7 +214,7 @@ class ToolFactory{
             }
             $result .= '<option value="'.$item->id.'" '.$select.$disable.'>'.$prefix.$item->name.'</option>';
             if(isset($list[$item->id])){
-                $result = $this->viewSelectList($selected, $item, $disabled, $list,  $prefix.$prefix.$prefix, $result);
+                $result = $this->viewSelectList($selected, $item, $disabled, $list,  $prefix.$prefix.$prefix, $order, $result);
             }
         }
         return $result;

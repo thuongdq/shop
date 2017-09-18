@@ -51,11 +51,13 @@ class CategoryController extends BackendController
      */
     public function index()
     {
+        $data = $this->_data;
         $data['categories'] = make_categories(Category::all());
         return view('backend.categories.index', $data);
     }
 
     public function create(){
+        $data = $this->_data;
         $data['categories'] = Category::where([
             ['parent','=', 0],
             ['id','<>', 1],
@@ -63,15 +65,17 @@ class CategoryController extends BackendController
         return view('backend.categories.create', $data);
     }
 
-    public function create_item(){
-        $data['categories'] = Category::where([
-            ['parent','=', 0],
-            ['id','<>', 1],
-        ])->get();
-        return view('backend.categories.create', $data);
-    }
+//    public function create_item(){
+//        $data = $this->_data;
+//        $data['categories'] = Category::where([
+//            ['parent','=', 0],
+//            ['id','<>', 1],
+//        ])->get();
+//        return view('backend.categories.create', $data);
+//    }
 
     public function store(Request $request){
+        $data = $this->_data;
         $valid = Validator::make($request->all(), [
             'name' => 'required|unique:tdq68_categories,name',
             'parent' => 'required'
@@ -103,6 +107,7 @@ class CategoryController extends BackendController
     }
 
     public function show($id){
+        $data = $this->_data;
         $data['category'] = Category::find($id);
         if($data['category'] !== null){
             return view('backend.categories.show', $data);
@@ -110,29 +115,54 @@ class CategoryController extends BackendController
         return redirect()->route('admin.category.index')->with('error', 'Không tìm thấy chuyên mục với id:'.$id);
     }
 
+
+    //action for Element
+    public function create_item($root, $parent){
+        $data = $this->_data;
+        $data['root_category'] = Category::find($root);
+//        $data['category'] = Category::find($id);
+//        $data['root'] = $root;
+
+        $data['data'] = [];
+        $data['data']['parent'] =  $parent;
+        $data['data']['name'] =  '';
+        $data['data']['description'] =  '';
+        $data['data']['order'] =  0;
+        $data['data']['seo_title'] =  '';
+        $data['data']['slug'] =  '';
+        $data['data']['meta_description'] =  '';
+        $data['data']['keyword'] =  '';
+
+        return view('backend.categories.show-item', $data);
+    }
+
+    public function store_item(Request $request){
+        dd($request->all());
+    }
+
     public function show_item($root, $id){
+        $data = $this->_data;
         $data['root_category'] = Category::find($root);
         $data['category'] = Category::find($id);
-        $data['root'] = $root;
-        
-        $data['data'] = [];
-        $data['data']['id'] = $id;
-        $data['data']['parent'] =  $data['category']->parent;
-        $data['data']['name'] =  $data['category']->name;
-        $data['data']['description'] =  $data['category']->description;
-        $data['data']['order'] =  $data['category']->order;
-        $data['data']['seo_title'] =  $data['category']->seo_title;
-        $data['data']['slug'] =  $data['category']->slug;
-        $data['data']['meta_description'] =  $data['category']->meta_description;
-        $data['data']['keyword'] =  $data['category']->keyword;
-        
         if($data['category'] !== null){
-            return view('backend.categories.show-item', $data);
+            $data['data'] = [];
+            $data['data']['id'] = $id;
+            $data['data']['parent'] =  $data['category']->parent;
+            $data['data']['name'] =  $data['category']->name;
+            $data['data']['description'] =  $data['category']->description;
+            $data['data']['order'] =  $data['category']->order;
+            $data['data']['seo_title'] =  $data['category']->seo_title;
+            $data['data']['slug'] =  $data['category']->slug;
+            $data['data']['meta_description'] =  $data['category']->meta_description;
+            $data['data']['keyword'] =  $data['category']->keyword;
+        }else{
+            $data['error'] = 'Không tìm thấy chuyên mục với id:'.$id;
         }
-        return redirect()->route('admin.category.index')->with('error', 'Không tìm thấy chuyên mục với id:'.$id);
+        return view('backend.categories.show-item', $data);
     }
 
     public function update_item(Request $request, $root, $id){
+        $data = $this->_data;
 //        dd($request->all());
         $data['root_category'] = Category::find($root);
         $data['category'] = Category::find($id);
@@ -183,6 +213,7 @@ class CategoryController extends BackendController
 
 
     public function update(Request $request, $id){
+        $data = $this->_data;
 //        dd($request->all());
 //        dd(123123);
         $valid = Validator::make($request->all(), [

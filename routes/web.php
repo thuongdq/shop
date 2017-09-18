@@ -46,8 +46,11 @@ Route::group(['as' => 'admin.', 'prefix'=>'admin', 'namespace' => 'Backend', 'mi
     Route::get('/categories/{id}', 'CategoryController@show')->where('id','[0-9]+')->name('category.show');
     Route::put('/categories/{id}', 'CategoryController@update')->name('category.update');
     Route::delete('/categories/{id}', 'CategoryController@delete')->name('category.delete');
+
+    Route::get('/categories/create/{root}/{parent}', 'CategoryController@create_item')->where(['root' => '[0-9]+' ,'parent'=>'[0-9]+'])->name('category.create-item');
+    Route::post('/categories/create/{root}/{parent}', 'CategoryController@store_item')->where(['root' => '[0-9]+' ,'parent'=>'[0-9]+'])->name('category.store-item');;
     Route::get('/categories/{root}/{id}', 'CategoryController@show_item')->where(['root' => '[0-9]+' ,'id'=>'[0-9]+'])->name('category.show-item');
-    Route::post('/categories/{root}/{id}', 'CategoryController@update_item')->where(['root' => '[0-9]+' ,'id'=>'[0-9]+'])->name('category.update-item');
+    Route::put('/categories/{root}/{id}', 'CategoryController@update_item')->where(['root' => '[0-9]+' ,'id'=>'[0-9]+'])->name('category.update-item');
 
     //  Product
     Route::get('/products', 'ProductController@index')->name('product.index');

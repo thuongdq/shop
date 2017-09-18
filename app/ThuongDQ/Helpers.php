@@ -28,16 +28,16 @@ if(!function_exists('get_thumbnail')){
     }
 
 
-    function view_select_list($current, $parent, $disabled = [], $list, $prefix="", $result=""){
-        return Tool::viewSelectList($current, $parent, $disabled, $list, $prefix, $result);
+    function view_select_list($current, $parent, $disabled = [], $list, $prefix="", $order='asc', $result=""){
+        return Tool::viewSelectList($current, $parent, $disabled, $list, $prefix, $order, $result);
     }
 
-    function get_data_nestable($root, $current, $list, $result = []){
-        return json_encode(Tool::getDataNestable($root, $current, $list, $result));
+    function get_data_nestable($root, $current, $list, $order = 'asc', $result = []){
+        return json_encode(Tool::getDataNestable($root, $current, $list, $order, $result));
     }
 
     function view_nestable($root, $current, $list, $result = ''){
-        return Tool::viewNestable($root, $current, $list);
+        return Tool::viewNestable($root, $current, $list, $order = 'asc');
     }
 
     function get_data_jstree($selected, $root, $list, $result = []){
